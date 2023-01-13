@@ -1,1 +1,21 @@
 /* your code */
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+}
+.styled-table thead tr {
+    background-color:rgb(4, 4, 90);
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 10px 14px;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
